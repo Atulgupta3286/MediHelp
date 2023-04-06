@@ -37,6 +37,10 @@ router.get('/doctor', function(req, res, next) {
 router.get('/emergency', function(req, res, next) {
   res.render("emergency");
 });
+router.get('/drone', function(req, res, next) {
+  res.render("drone");
+});
+
 router.get('/appointment', function(req, res, next) {
   res.render("appointment");
 });
@@ -44,6 +48,16 @@ router.get('/appointment', function(req, res, next) {
 router.get('/community', function(req, res, next) {
   res.render("community");
 });
+
+router.get('/collectionItem', function(req, res, next) {
+  res.render("collectionItem");
+});
+
+router.get('/donate', function(req, res, next) {
+  res.render("donate");
+});
+
+
 module.exports = router;
 
 

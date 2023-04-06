@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('https://images.jems.com/wp-content/uploads/2020/01/u537.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+   color: white;
+  text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+   font-size: 25px;
+
+}
+
+.middle {
+  position: absolute;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+#para{
+color:white;
+font-size:80%;
+background:black;
+}
+</style>
+<body>
+
+<div class="bgimg">
+    <div class="topleft">
+        <p>MeDiHeLp</p>
+    </div>
+    <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p>work in progress...</p>
+    </div>
+</div>
+    <div class="bottomleft">
+        <marquee id="para">Drone delivery is a safer, faster and more sustainable way to access items we need. It is not a one-size-fits all solution, but it will be part of an intelligent transportation system, taking advantage of the sky to deliver small packages on demand.</marquee>
+    </div>
+
+
+</body>
+</html>
