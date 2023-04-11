@@ -1,13 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+*{
+  font-family: "Dosis SemiBold";
+}
+
 #bg {
-  background-image: url('https://wallpapercave.com/wp/wp5309534.jpg');
+  background-image: url('https://images.unsplash.com/photo-1587370560942-ad2a04eabb6d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fG1lZGljaW5lfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60');
   position: fixed;
   left: 0;
   top: 0;
   width: 100%;
   height: 100%;
   background-size: cover;
-  filter: blur(3px);
+  filter: blur(2px);
 }
 
 body {
@@ -38,7 +42,6 @@ form .form-field::before {
   position: absolute;
   left: 1px;
   top: 17px;
-  color: #888888;
   content: " ";
   display: block;
   background-size: cover;
